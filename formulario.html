@@ -25,7 +25,7 @@
             </div>
             <div>
             <h2>Nós dê sua opinião!</h2>
-            <form action= "pagina_destino.html" mthod="post">
+            <form action= "pagina_destino.html" method="post">
                 <h4>O que você achou da reunião?</h4>
                 <p>
                 <label>
@@ -41,6 +41,44 @@
                 <input  type="radio" value="Gostei muito" name="opinião"/>
                 Gostei muito
                 </label>
+                </p>
+                <h4>Seu filho participou de qual ramo?</h4>
+                <p>
+                <label>
+                <input type="radio" value="Lobinho" name="ramo"/>
+                Lobinho
+                </label>
+                <label>
+                <input type="radio" value="Escoteiro" name="ramo"/>
+                Escoteiro
+                </label>
+                <label>
+                <input type="radio" value="Sênior" name="ramo"/>
+                Sênior
+                </label>
+                <label>
+                <input type="radio" value="Pioneiro" name="ramo"/>
+                Pioneiro
+                </label>
+                </p>
+                <h4>Por onde você conheceu o grupo escoteiro?</h4>
+                <p>
+                    <label for="opcoes">Escolha uma opção:</label>
+                    <select id="opcoes" name="opcoes">
+                        <option value="opcao1">Instagram</option>
+                        <option value="opcao2">Amigos</option>
+                        <option value="opcao3">Ja fui membro</option>
+                        <option value="opcao4">Escola</option>
+                        <option value="opcao4">Radio</option>
+                        <option value="opcao4">Conheci em um evento</option>
+                    </select>
+                    <br><br>
+                    <label>
+                    <input  type="checkbox" value="autorização"/>
+                    Você Aceita que seus dados sejam compartilhados com terceiros?
+                    </label>
+                    <br><br>   
+                    <input type="submit" value="Enviar">    
                 </p>
             </form>
             </div>
