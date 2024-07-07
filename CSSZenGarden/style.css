@@ -1,3 +1,12 @@
-/*Paleta de cores a ser utilizada:
-https://color.adobe.com/pt/search?q=Hiphop
-*/
+
+.NPR-MUSIC-1-hex { color: #A61C28; }
+.NPR-MUSIC-2-hex { color: #D97EC0; }
+.NPR-MUSIC-3-hex { color: #8C2E7D; }
+.NPR-MUSIC-4-hex { color: #222559; }
+.NPR-MUSIC-5-hex { color: #F2A03D; }
+
+
+html{
+    background: #D97EC0;
+    color:#222559;
+}
