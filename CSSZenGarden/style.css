@@ -39,6 +39,7 @@ abbr{
     width: 80%;
     max-width: 1280px;
     margin: auto;
+    position: relative;
 } 
 #zen-intro{
     height: 550px;
@@ -71,4 +72,16 @@ aside ul li{
     border: solid 2px #222559;
     padding: 0.5em; 
     display: inline-block;
+}
+.explanation{
+    width: 60%;
+    border-right: 1px solid #222559;
+    padding-right: 2%;
+}
+#design-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
