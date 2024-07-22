@@ -1,0 +1,85 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#apresentacao, #educacao, #certificacoes, #experiencia {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada seção */
+#apresentacao {
+    border-left: 5px solid #007BFF;
+}
+
+#educacao {
+    border-left: 5px solid #28A745;
+}
+
+#certificacoes {
+    border-left: 5px solid #FFC107;
+}
+
+#experiencia {
+    border-left: 5px solid #DC3545;
+}
+
+/* Títulos */
+h2 {
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+#educacao h2 {
+    color: #28A745;
+}
+
+#certificacoes h2 {
+    color: #FFC107;
+}
+
+#experiencia h2 {
+    color: #DC3545;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    width: calc(100% - 40px);
+    list-style-type: none;
+}
+
+/* Links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
